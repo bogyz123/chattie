@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chattie/static/css/main.a460df35.css",
+    "main.js": "/chattie/static/js/main.cda0ed87.js",
+    "static/js/787.4756f446.chunk.js": "/chattie/static/js/787.4756f446.chunk.js",
+    "static/media/clouds.jpg": "/chattie/static/media/clouds.af569c355c663a733432.jpg",
+    "index.html": "/chattie/index.html",
+    "main.a460df35.css.map": "/chattie/static/css/main.a460df35.css.map",
+    "main.cda0ed87.js.map": "/chattie/static/js/main.cda0ed87.js.map",
+    "787.4756f446.chunk.js.map": "/chattie/static/js/787.4756f446.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a460df35.css",
+    "static/js/main.cda0ed87.js"
+  ]
+}
