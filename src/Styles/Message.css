@@ -1,0 +1,12 @@
+.message {
+    font-family: 'Roboto Condensed';
+    display: flex;
+    width: max-content;
+    padding-inline: 5px;
+    
+    max-width: 100%;
+    
+    padding:13px;
+  
+    
+}

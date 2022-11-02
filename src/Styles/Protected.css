@@ -1,0 +1,35 @@
+#protected {
+    display: flex;
+
+    width: fit-content;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
+
+    margin: auto;
+    padding: 10px;
+    margin-top: 125px;
+
+}
+
+#inner {
+    display: flex;
+
+}
+
+#clouds img {
+
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 850px) {
+    #inner {
+        flex-direction: column;
+    }
+
+    #protected {
+        margin-top: 0px;
+    }
+
+}

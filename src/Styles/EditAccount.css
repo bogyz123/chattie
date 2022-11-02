@@ -1,0 +1,15 @@
+#edit-account {
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Roboto Condensed';
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    row-gap: 10px;
+}
+#avatar {
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+}

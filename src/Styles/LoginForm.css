@@ -1,0 +1,29 @@
+#login-form {
+    background-color: #fff;
+    font-family: 'Roboto Condensed';
+    font-size: 1.3rem;
+  
+  
+}
+#input-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-inline: 20px;
+}
+.center {
+    text-align: center;
+    font-size: 1rem;
+}
+#login-span {
+    color: rgb(129, 129, 129);
+}
+#remember-me {
+    font-size: 1rem;
+}
+@media screen and (max-width: 850px) {
+    html {
+        font-size: 14px;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');

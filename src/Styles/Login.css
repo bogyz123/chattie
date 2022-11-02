@@ -1,0 +1,10 @@
+#fullscreen {
+    display: flex;
+    background-color: dodgerblue;
+    height: 100vh;
+
+}
+
+* {
+    box-sizing: border-box;
+}

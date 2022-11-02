@@ -1,0 +1,102 @@
+#home {
+    display: flex;
+    font-family: 'Roboto Condensed';
+    font-size: 1.1rem;
+    background-color: rgb(25,25,25);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    overflow: hidden;
+}
+html {
+    background-color: rgb(25,25,25);
+    overflow: hidden;
+    
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+    
+}
+
+
+#chatbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    
+ 
+   
+    
+}
+
+#online-users {
+    display: flex;
+    padding-inline: 15 5px 15px 5px;
+    margin-bottom: 7px;
+    justify-content: center;
+}
+
+#messages {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    overflow-y: auto;
+    max-height: 500vh;
+    padding: 0px 10px 0px 3px;
+    height: 100%;
+    overflow-x: hidden;
+    
+}
+
+
+.sender {
+    font-size: 0.8rem;
+}
+
+.hoverable {
+    cursor: pointer;
+}
+
+#dialog {
+    font-family: 'Roboto Condensed';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+}
+
+#dialog div {
+    display: flex;
+    align-items: center;
+}
+
+#close-dialog {
+    cursor: pointer;
+}
+#actions {
+    display: flex;
+    align-items: center;
+   
+}
+#msg-sender {
+    display: flex;
+    padding:5px;
+    align-items: center;
+    justify-content: center;
+}
+#test {
+    flex:1;
+}
+.self {
+    margin-left: auto;
+    
+}
